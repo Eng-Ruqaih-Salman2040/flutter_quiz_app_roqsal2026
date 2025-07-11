@@ -1,0 +1,2338 @@
+[
+  {
+    "id": 1741,
+    "question": "What is the purpose of React's createPortal method?",
+    "description": "Understanding React's DOM manipulation capabilities.",
+    "answers": {
+      "answer_a": "To create new components",
+      "answer_b": "To render children into a DOM node outside their parent component hierarchy",
+      "answer_c": "To optimize performance",
+      "answer_d": "To handle routing",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "createPortal allows you to render children into a DOM node that exists outside the parent component's DOM hierarchy while maintaining React's event system and context, useful for modals, tooltips, and overlays.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "React"
+      }
+    ],
+    "category": "React",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 839,
+    "question": "Following Docker command: eval $(docker-machine env default)  is used to:",
+    "description": null,
+    "answers": {
+      "answer_a": "Activate default VM machine",
+      "answer_b": "Build an image",
+      "answer_c": "Access a running container",
+      "answer_d": "Commit changes done in a Docker image",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "Docker"
+      }
+    ],
+    "category": "Docker",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 9275,
+    "question": "Which PHP function sets or retrieves metadata associated with a stream wrapper?",
+    "description": "Understanding how to manage stream wrapper metadata.",
+    "answers": {
+      "answer_a": "stream_context_set_option()",
+      "answer_b": "setStreamMetadata()",
+      "answer_c": "stream_wrapper_metadata()",
+      "answer_d": "file_meta_set()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The `stream_context_set_option()` function is used to set metadata for a stream wrapper.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 6855,
+    "question": "Your event-driven system needs to handle poison pills gracefully. Which pattern is most robust?",
+    "description": "Handling corrupt messages.",
+    "answers": {
+      "answer_a": "Skip messages",
+      "answer_b": "Dead letter queue with retry topology",
+      "answer_c": "Ignore errors",
+      "answer_d": "Manual handling",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Implementing a dead letter queue with retry topology provides robust handling of corrupt messages while maintaining system reliability and monitoring capabilities.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Apache Kafka"
+      }
+    ],
+    "category": "Apache Kafka",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 714,
+    "question": "What could be used to program additional authentication logic besides available authenticator modules?",
+    "description": null,
+    "answers": {
+      "answer_a": "Kube Vault",
+      "answer_b": "Authentication Proxy",
+      "answer_c": "Kube Auth Service",
+      "answer_d": "Kubernetes Role Manager",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": "Using Authentication Proxy, the API server can extract the information it needs about the user’s identity using the HTTP headers that you specify. Let’s have a quick example to demonstrate this concept:",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Kubernetes"
+      }
+    ],
+    "category": "Linux",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9625,
+    "question": "Which tag defines an unordered list?",
+    "description": "Creating lists in HTML.",
+    "answers": {
+      "answer_a": "<ol>",
+      "answer_b": "<ul>",
+      "answer_c": "<list>",
+      "answer_d": "<unordered>",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The <ul> tag defines an unordered (bulleted) list.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "HTML",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 7139,
+    "question": "Which command correctly swaps the contents of two variables in Bash?",
+    "description": "Understanding variable swapping without a temporary variable.",
+    "answers": {
+      "answer_a": "a=$b; b=$a",
+      "answer_b": "a=${b}; b=${a}",
+      "answer_c": "a=$((a ^ b)); b=$((a ^ b)); a=$((a ^ b))",
+      "answer_d": "temp=$a; a=$b; b=$temp",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "true",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Using a temporary variable is the simplest way to swap two values in Bash.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "BASH"
+      }
+    ],
+    "category": "bash",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2694,
+    "question": "What is the difference between the ListAPIView and ListModelMixin in DRF?",
+    "description": "ListAPIView and ListModelMixin both provide listing functionality, but they differ in how they are used.",
+    "answers": {
+      "answer_a": "ListAPIView is a complete view, while ListModelMixin is used to add listing behavior to other views",
+      "answer_b": "ListModelMixin can only be used with generic views",
+      "answer_c": "ListAPIView requires manual querysets",
+      "answer_d": "ListAPIView can be used for read and write operations",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "ListAPIView is a complete view that provides listing functionality, whereas ListModelMixin is a mixin that can be added to other views to provide the same behavior.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Django"
+      }
+    ],
+    "category": "Django",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 2603,
+    "question": "What is Celery Beat used for?",
+    "description": "Celery Beat is a scheduler used with Celery to run periodic tasks.",
+    "answers": {
+      "answer_a": "To store task results",
+      "answer_b": "To monitor worker status",
+      "answer_c": "To schedule periodic tasks",
+      "answer_d": "To handle real-time web requests",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Celery Beat is used to schedule periodic tasks, making it easy to run tasks at regular intervals, such as hourly or daily.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Django"
+      }
+    ],
+    "category": "Django",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4554,
+    "question": "What is the purpose of 'stream.Writable._write()'?",
+    "description": "Exploring low-level write operations in writable streams.",
+    "answers": {
+      "answer_a": "Handles how data is written to the stream",
+      "answer_b": "Flushes the writable stream buffer",
+      "answer_c": "Transforms data before writing it to the stream",
+      "answer_d": "Resumes a paused writable stream",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "'stream.Writable._write()' is a low-level method that specifies how data is written to the writable stream.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "nodeJS"
+      }
+    ],
+    "category": "NodeJs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8762,
+    "question": "Which PHP magic method is called when a class is serialized?",
+    "description": "Understanding `__sleep()` and `__serialize()` methods in PHP.",
+    "answers": {
+      "answer_a": "__serialize()",
+      "answer_b": "__sleep()",
+      "answer_c": "__store()",
+      "answer_d": "__save()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The `__serialize()` method is called when an object is serialized.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2369,
+    "question": "What is the most effective way to optimize LIKE queries with wildcards?",
+    "description": "Understanding pattern matching optimization.",
+    "answers": {
+      "answer_a": "B-tree index",
+      "answer_b": "GiST index with pg_trgm",
+      "answer_c": "Expression index",
+      "answer_d": "Hash index",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "GiST index with pg_trgm extension provides efficient pattern matching for LIKE queries with wildcards, especially for leading wildcard searches that B-tree indexes can't handle.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Postgres"
+      }
+    ],
+    "category": "Postgres",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5643,
+    "question": "How can you force Vue Router to scroll to the top of the page during route navigation?",
+    "description": "Exploring how to ensure the page scrolls to the top on each navigation.",
+    "answers": {
+      "answer_a": "Use '$refs.scrollToTop()'",
+      "answer_b": "Use the 'scrollBehavior' option in the router configuration to set 'x' and 'y' to 0",
+      "answer_c": "Use 'v-if' with window.scrollTo",
+      "answer_d": "Use 'props: { scrollToTop: true }'",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "You can use the 'scrollBehavior' option in the router configuration to set the page to scroll to coordinates 'x: 0' and 'y: 0' during navigation.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5879,
+    "question": "How do you use the Composition API to conditionally register lifecycle hooks?",
+    "description": "Understanding how to conditionally add hooks in Vue's Composition API.",
+    "answers": {
+      "answer_a": "Use a condition inside the 'setup()' function before calling the lifecycle hook",
+      "answer_b": "Hooks must always be registered",
+      "answer_c": "Use 'onCondition()'",
+      "answer_d": "Use 'if (hook) { onMounted() }' in 'data()'",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "In Vue's Composition API, you can conditionally register lifecycle hooks by placing the hook call within a conditional block in the 'setup()' function.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8310,
+    "question": "What will be the output of the following code?\n```php\n$x = 3 + '5 cats';\necho $x;\n```",
+    "description": "Understanding type juggling with numeric and non-numeric strings in PHP.",
+    "answers": {
+      "answer_a": "8",
+      "answer_b": "3",
+      "answer_c": "Error",
+      "answer_d": "'35 cats'",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "PHP extracts the leading numeric part of '5 cats' and adds it to 3, resulting in 8.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9591,
+    "question": "What HTML tag is used to create a drop-down list?",
+    "description": "Form input types.",
+    "answers": {
+      "answer_a": "<input>",
+      "answer_b": "<dropdown>",
+      "answer_c": "<select>",
+      "answer_d": "<list>",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The <select> element creates a drop-down list.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "HTML",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6752,
+    "question": "Your Kafka cluster's producer latency increases during key-based compaction. Which configuration would help most?",
+    "description": "Optimizing producer performance during log compaction.",
+    "answers": {
+      "answer_a": "Increase num.recovery.threads.per.data.dir",
+      "answer_b": "Tune log.cleaner.min.cleanable.ratio",
+      "answer_c": "Add more partitions",
+      "answer_d": "Enable compression",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Tuning log.cleaner.min.cleanable.ratio helps balance cleaning frequency with cleaning efficiency, reducing the impact of compaction on producer latency by optimizing when compaction occurs.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Apache Kafka"
+      }
+    ],
+    "category": "Apache Kafka",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2306,
+    "question": "What is the benefit of using BRIN indexes over B-tree indexes in PostgreSQL?",
+    "description": "Understanding different indexing strategies in PostgreSQL.",
+    "answers": {
+      "answer_a": "BRIN indexes are always faster",
+      "answer_b": "BRIN indexes take significantly less space for naturally ordered data",
+      "answer_c": "BRIN indexes support more data types",
+      "answer_d": "BRIN indexes allow unique constraints",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "BRIN (Block Range INdex) indexes store summaries of value ranges in blocks, making them much smaller than B-tree indexes. They're particularly efficient for naturally ordered data like timestamps or sequential IDs, though they provide less precise access than B-tree indexes.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Postgres"
+      }
+    ],
+    "category": "Postgres",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2831,
+    "question": "How do you implement conditional display logic for inline forms in Django Admin?",
+    "description": "Conditional display logic allows inline forms to be shown or hidden based on the state of the parent object or other criteria.",
+    "answers": {
+      "answer_a": "Override the get_inline_instances() method in ModelAdmin",
+      "answer_b": "Set inline_condition=True in settings.py",
+      "answer_c": "Use the @conditional_inline decorator",
+      "answer_d": "Override the save_model() method",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To implement conditional display logic for inline forms, override the get_inline_instances() method in ModelAdmin, which allows you to control when specific inline forms are displayed.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Django"
+      }
+    ],
+    "category": "Django",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 3945,
+    "question": "What is the role of a 'Contributor' in WordPress?",
+    "description": "Understanding user roles and permissions in WordPress.",
+    "answers": {
+      "answer_a": "Can publish and edit posts",
+      "answer_b": "Can upload media",
+      "answer_c": "Can write but not publish posts",
+      "answer_d": "Has full administrative rights",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Contributors can write posts but cannot publish them. They need a higher-level user role to publish their work.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "WordPress"
+      }
+    ],
+    "category": "WordPress",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 6733,
+    "question": "Your Kafka Connect cluster shows uneven task distribution. What's the most likely cause?",
+    "description": "Troubleshooting Kafka Connect deployment issues.",
+    "answers": {
+      "answer_a": "Incorrect broker configuration",
+      "answer_b": "Connector-level task.max setting misconfiguration",
+      "answer_c": "Network partition",
+      "answer_d": "Wrong consumer group",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Misconfigured task.max settings at the connector level can lead to uneven task distribution across Connect workers, impacting the overall performance and resource utilization of the Connect cluster.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Apache Kafka"
+      }
+    ],
+    "category": "Apache Kafka",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 8606,
+    "question": "Which function escapes special characters in a string?",
+    "description": "Understanding `addslashes()` function in PHP.",
+    "answers": {
+      "answer_a": "str_escape()",
+      "answer_b": "addslashes()",
+      "answer_c": "htmlspecialchars()",
+      "answer_d": "escape_string()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "`addslashes()` adds backslashes before characters that need escaping.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1016,
+    "question": "Which of the following are Kubernetes Objects?",
+    "description": null,
+    "answers": {
+      "answer_a": "Kubernetes objects are Pod, Service and Volume.",
+      "answer_b": "Kubernetes objects are  Host, Auth and Cluster.",
+      "answer_c": null,
+      "answer_d": null,
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": null,
+    "tip": null,
+    "tags": [
+      {
+        "name": "Kubernetes"
+      }
+    ],
+    "category": "DevOps",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5013,
+    "question": "Which method can you use to encrypt data in a stream using the Crypto module?",
+    "description": "Stream encryption in Node.js.",
+    "answers": {
+      "answer_a": "crypto.createCipheriv(algorithm, key, iv)",
+      "answer_b": "crypto.createHash(algorithm)",
+      "answer_c": "crypto.encryptStream(algorithm, key, iv)",
+      "answer_d": "crypto.createStreamCipher(algorithm, key)",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "'crypto.createCipheriv()' creates a Cipher object that can be used in streams to encrypt data.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "nodeJS"
+      }
+    ],
+    "category": "NodeJs",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1386,
+    "question": "Which Keycloak feature allows OpenShift to revoke a user\u2019s access if their role changes?",
+    "description": "Managing user access revocation is important when roles or permissions change.",
+    "answers": {
+      "answer_a": "Token Introspection",
+      "answer_b": "Session Logout",
+      "answer_c": "Role Mapping",
+      "answer_d": "Token Expiration",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Token Introspection in Keycloak allows OpenShift to verify active tokens, enabling access revocation when roles change.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Openshift"
+      }
+    ],
+    "category": "DevOps",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 5622,
+    "question": "How can you differentiate between similar routes using Vue Router's priority?",
+    "description": "Understanding how Vue Router prioritizes similar routes.",
+    "answers": {
+      "answer_a": "Vue Router automatically chooses",
+      "answer_b": "More specific routes should be declared before more generic ones",
+      "answer_c": "Use 'priority: high' in the route definition",
+      "answer_d": "Use '$emit' to select a route",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Vue Router prioritizes routes based on the order they are declared, so more specific routes should be defined before more generic ones to avoid conflicts.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 4776,
+    "question": "How can you efficiently copy a directory with all its contents in Node.js?",
+    "description": "Copying directories and their contents.",
+    "answers": {
+      "answer_a": "Use fs.cp() with the 'recursive' option set to true",
+      "answer_b": "Use fs.copyFile() for each file in the directory",
+      "answer_c": "Manually create the directory and copy files one by one",
+      "answer_d": "Use fs.rename() with the 'recursive' option",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'fs.cp()' method with the 'recursive' option set to true is the most efficient way to copy a directory and its contents.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "nodeJS"
+      }
+    ],
+    "category": "NodeJs",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 4412,
+    "question": "How do you implement basic auth guards?",
+    "description": "Understanding route protection basics.",
+    "answers": {
+      "answer_a": "No protection",
+      "answer_b": "Middleware with session check",
+      "answer_c": "Client-side only",
+      "answer_d": "Page refresh",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Using middleware with session check provides basic route protection while maintaining security.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Next.js"
+      }
+    ],
+    "category": "Next.js",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5531,
+    "question": "What is the role of Vue's 'teleport' feature, and how do you use it?",
+    "description": "Understanding how and when to use Vue's 'teleport' feature.",
+    "answers": {
+      "answer_a": "To optimize component rendering",
+      "answer_b": "To move a part of a component to a different DOM tree element",
+      "answer_c": "To create transitions between routes",
+      "answer_d": "To manage Vuex state more efficiently",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Vue's 'teleport' feature is used to move a part of a component\u2019s template to a different location in the DOM, which is useful for modals, tooltips, or other UI elements that are better placed outside the usual hierarchy.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 10000,
+    "question": "A JavaScript application needs to implement hot module replacement for development. Which architecture would be most efficient?",
+    "description": "Implementing efficient development workflows in JavaScript.",
+    "answers": {
+      "answer_a": "Reload the entire page on every code change",
+      "answer_b": "Implement a module registry with state preservation hooks",
+      "answer_c": "Disable live reloading to improve stability",
+      "answer_d": "Use iframes for each component",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "A module registry with state preservation hooks provides optimal hot module replacement. The module registry tracks module relationships and dependencies. State preservation hooks allow components to maintain their state during updates. This approach enables updating specific modules without losing application state, dramatically improving development workflow by providing instant feedback for code changes without losing context. This architecture significantly accelerates development by eliminating the need for manual state recreation after code changes.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "JavaScript"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 8595,
+    "question": "Which function pads a string to a specified length with another string?",
+    "description": "Understanding `str_pad()` function.",
+    "answers": {
+      "answer_a": "pad_string()",
+      "answer_b": "str_pad()",
+      "answer_c": "string_fill()",
+      "answer_d": "str_fill()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The `str_pad()` function pads a string to a new length with another string.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 5979,
+    "question": "What is the purpose of 'watchEffect()' in Vue's Composition API?",
+    "description": "Understanding the role of 'watchEffect()' in reactive state management.",
+    "answers": {
+      "answer_a": "'watchEffect()' runs a function immediately and automatically tracks all reactive dependencies",
+      "answer_b": "It creates a computed property",
+      "answer_c": "It makes a reactive property shallow",
+      "answer_d": "It is used only for lifecycle hooks",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "'watchEffect()' runs its callback immediately and automatically tracks any reactive dependencies, making it useful for running side effects.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3096,
+    "question": "How do you use WHM API to revoke reseller privileges from a cPanel account?",
+    "description": "Revoking reseller privileges may be necessary when resellers no longer need administrative access to other accounts.",
+    "answers": {
+      "answer_a": "Use 'revokeacls' in WHM API 1",
+      "answer_b": "Run 'reseller::remove_privileges' using cPanel API",
+      "answer_c": "Call 'disable_reseller_access' in WHM API 2",
+      "answer_d": "Use 'Account::remove_reseller' in CLI",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'revokeacls' function in WHM API 1 is used to revoke reseller privileges from a cPanel account.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "cPanel"
+      }
+    ],
+    "category": "cPanel",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 5566,
+    "question": "How do you use slots in a functional component in Vue 3?",
+    "description": "Explaining how to manage slots when dealing with functional components.",
+    "answers": {
+      "answer_a": "Functional components cannot use slots",
+      "answer_b": "Use 'slots' argument inside the render function",
+      "answer_c": "Access slots using '$slots' in the template",
+      "answer_d": "Use 'v-model' to manage slots",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "In functional components, slots can be used by accessing the 'slots' argument inside the render function to programmatically manage the slot content.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "VueJS"
+      }
+    ],
+    "category": "VueJS",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9238,
+    "question": "Which function should be used to move an uploaded file to a new location securely?",
+    "description": "Understanding how to securely move uploaded files in PHP.",
+    "answers": {
+      "answer_a": "move_uploaded_file()",
+      "answer_b": "rename()",
+      "answer_c": "copy()",
+      "answer_d": "moveFile()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The `move_uploaded_file()` function ensures safe moving of uploaded files.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 3457,
+    "question": "Which command is used to add an IP address to the Fail2Ban ignore list in Ubuntu?",
+    "description": "Adding an IP address to the Fail2Ban ignore list prevents the address from being banned, even after multiple failed login attempts.",
+    "answers": {
+      "answer_a": "Edit '\/etc\/fail2ban\/jail.local' and add the IP to 'ignoreip' under '[DEFAULT]'",
+      "answer_b": "Run 'fail2ban ignore-ip add'",
+      "answer_c": "Type 'add-to-ignore fail2ban'",
+      "answer_d": "Use 'ignore-list fail2ban'",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To add an IP address to the Fail2Ban ignore list, edit '\/etc\/fail2ban\/jail.local' and add the IP to 'ignoreip' under '[DEFAULT]'.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Ubuntu"
+      }
+    ],
+    "category": "uncategorized",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 9273,
+    "question": "Which function should be used to securely delete a file by overwriting its contents before removing it?",
+    "description": "Understanding secure file deletion techniques.",
+    "answers": {
+      "answer_a": "Writing random data and using unlink()",
+      "answer_b": "secure_delete()",
+      "answer_c": "overwrite_unlink()",
+      "answer_d": "delete_permanent()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To securely delete a file, overwrite its contents with random data before calling `unlink()`.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1968,
+    "question": "Which algorithm is used for sorting a list in Python by default?",
+    "description": "Python uses an efficient algorithm to sort lists.",
+    "answers": {
+      "answer_a": "Merge Sort",
+      "answer_b": "Quick Sort",
+      "answer_c": "Tim Sort",
+      "answer_d": "Bubble Sort",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Python's built-in sort() and sorted() methods use Tim Sort, which is a hybrid sorting algorithm derived from Merge Sort and Insertion Sort.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 9572,
+    "question": "Which tag is used to define superscript text?",
+    "description": "Formatting text position.",
+    "answers": {
+      "answer_a": "<super>",
+      "answer_b": "<sup>",
+      "answer_c": "<sub>",
+      "answer_d": "<above>",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The <sup> tag creates superscript text.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "HTML"
+      }
+    ],
+    "category": "HTML",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 8966,
+    "question": "What is the primary difference between sessions and cookies?",
+    "description": "Understanding session-based and cookie-based storage.",
+    "answers": {
+      "answer_a": "Sessions store data in the browser, cookies store data on the server",
+      "answer_b": "Cookies store data in the browser, sessions store data on the server",
+      "answer_c": "Sessions last longer than cookies",
+      "answer_d": "Cookies are more secure than sessions",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Sessions store user data on the server, while cookies store data in the user's browser.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "PHP"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+    {
+      "id": 6630,
+      "question": "How can you prevent a transition effect from running if the element is already visible?",
+      "description": "Learning how to control when transition effects are applied.",
+      "answers": {
+        "answer_a": "Use conditional rendering with 'v-if' to avoid unnecessary transitions",
+        "answer_b": "Apply the 'leave-active' class",
+        "answer_c": "Disable all transition effects",
+        "answer_d": "Use 'v-show' instead",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Using conditional rendering with 'v-if' allows you to control when transitions are applied, preventing them from running when the element is already visible.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "VueJS"
+        }
+      ],
+      "category": "VueJS",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 8190,
+      "question": "Which of the following is used to run multiple commands in parallel and limit the number of jobs using `xargs`?",
+      "description": "Understanding how to control parallel execution with `xargs`.",
+      "answers": {
+        "answer_a": "xargs -P 4",
+        "answer_b": "xargs --jobs 4",
+        "answer_c": "xargs -n 4",
+        "answer_d": "xargs --parallel 4",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "`xargs -P 4` runs commands in parallel with up to 4 processes at once.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "BASH"
+        }
+      ],
+      "category": "bash",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 10360,
+      "question": "You are configuring a distributed system where nodes need to communicate securely over an untrusted network. Which protocol can provide end-to-end encryption and authentication for secure communication?",
+      "description": "Security-focused question on selecting the appropriate protocol for secure communication in distributed systems.",
+      "answers": {
+        "answer_a": "HTTP",
+        "answer_b": "SSH",
+        "answer_c": "TLS",
+        "answer_d": "UDP",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "TLS (Transport Layer Security) protocol provides end-to-end encryption and authentication, ensuring secure communication over untrusted networks in distributed systems.",
+      "tip": "Always use secure protocols like TLS to protect data during communication over untrusted networks.",
+      "tags": [
+        {
+          "name": "Undefined"
+        }
+      ],
+      "category": "uncategorized",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 9482,
+      "question": "What is the purpose of Laravel's Blade templating engine?",
+      "description": "Understand the role of Blade in creating dynamic views in Laravel applications.",
+      "answers": {
+        "answer_a": "To define database migrations",
+        "answer_b": "To handle HTTP requests",
+        "answer_c": "To manage authentication",
+        "answer_d": "To create dynamic views",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "true",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "Blade is the simple, yet powerful templating engine provided with Laravel for creating dynamic views.",
+      "tip": "Leverage Blade's syntax to include PHP code directly in your views for dynamic content.",
+      "tags": [
+        {
+          "name": "Undefined"
+        }
+      ],
+      "category": "Laravel",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 1755,
+      "question": "How do you specify a metaclass for a new class in Python?",
+      "description": "A metaclass can be specified using the 'metaclass' keyword in a class definition.",
+      "answers": {
+        "answer_a": "Using 'class='",
+        "answer_b": "Using 'metaclass='",
+        "answer_c": "Using 'meta='",
+        "answer_d": "Using 'type='",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "A metaclass can be specified for a class by using the 'metaclass=' keyword in the class definition.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "Python"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 201,
+      "question": "What is the output of the following Python code?\n\nprint(type([]) is list)",
+      "description": null,
+      "answers": {
+        "answer_a": "True",
+        "answer_b": "False",
+        "answer_c": "TypeError",
+        "answer_d": "None",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "The 'is' operator checks identity. [] is list returns True.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "Python"
+        }
+      ],
+      "category": "code",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 101,
+      "question": "What is the output of `print(2 ** 3)` in Python?",
+      "description": null,
+      "answers": {
+        "answer_a": "6",
+        "answer_b": "8",
+        "answer_c": "9",
+        "answer_d": "23",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "The `**` operator in Python is exponentiation, so 2³ = 8.",
+      "tip": null,
+      "tags": [
+        "Python"
+      ],
+      "category": "Code",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 102,
+      "question": "Which method adds an element to the end of a list?",
+      "description": null,
+      "answers": {
+        "answer_a": "append()",
+        "answer_b": "extend()",
+        "answer_c": "push()",
+        "answer_d": "add()",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "explanation": "Use `list.append(item)` to add to the end.",
+      "tip": null,
+      "tags": [
+        "Python",
+        "Lists"
+      ],
+      "category": "Code",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 1849,
+      "question": "How does Python's garbage collector handle objects with a '__del__' method involved in a reference cycle?",
+      "description": "Objects with a '__del__' method involved in a reference cycle present challenges for the garbage collector.",
+      "answers": {
+        "answer_a": "It ignores them completely",
+        "answer_b": "It places them in the 'gc.garbage' list and does not delete them automatically",
+        "answer_c": "It deletes them immediately",
+        "answer_d": "It raises an exception",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "true",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "If an object with a '__del__' method is involved in a reference cycle, the garbage collector cannot determine a safe deletion order and places the object in the 'gc.garbage' list, requiring manual intervention.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "Python"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 8132,
+      "question": "How can you simulate a TCP connection to a remote server on port 443 using Netcat?",
+      "description": "Understanding how to simulate a TCP connection on a specific port using Netcat.",
+      "answers": {
+        "answer_a": "nc -v hostname 443",
+        "answer_b": "nc -u hostname 443",
+        "answer_c": "nc -t hostname 443",
+        "answer_d": "nc -n hostname 443",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "`nc -v hostname 443` connects to port 443 (HTTPS) on a remote server.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "BASH"
+        }
+      ],
+      "category": "bash",
+      "difficulty": "Hard"
+    },
+    {
+      "id": 1781,
+      "question": "How does inheritance affect metaclasses in a derived class?",
+      "description": "The metaclass of a derived class is determined by the metaclasses of its base classes.",
+      "answers": {
+        "answer_a": "The derived class always uses 'type' as its metaclass",
+        "answer_b": "The derived class must use the same metaclass as all of its base classes",
+        "answer_c": "The metaclass of the derived class is determined by the most derived metaclass",
+        "answer_d": "The derived class cannot have a metaclass",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "false",
+        "answer_b_correct": "false",
+        "answer_c_correct": "true",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "The metaclass of a derived class is determined by the most derived metaclass of its base classes, ensuring compatibility across the inheritance chain.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "Python"
+        }
+      ],
+      "category": "Code",
+      "difficulty": "Medium"
+    },
+    {
+      "id": 3046,
+      "question": "How can you set up a custom error page in cPanel?",
+      "description": "Custom error pages provide a better user experience by displaying friendly messages when errors occur.",
+      "answers": {
+        "answer_a": "Go to the 'Error Pages' section and create a custom page for the desired error code",
+        "answer_b": "Create a custom error page in 'File Manager'",
+        "answer_c": "Use 'FTP Accounts' to set up an error page",
+        "answer_d": "Create an error page in 'MySQL Databases'",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "To create a custom error page, go to the 'Error Pages' section in cPanel, select the error code (e.g., 404), and design a custom page to display.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "cPanel"
+        }
+      ],
+      "category": "cPanel",
+      "difficulty": "Easy"
+    },
+    {
+      "id": 7174,
+      "question": "Which command shows file details like permissions and size?",
+      "description": "Understanding how to get detailed file information in Bash.",
+      "answers": {
+        "answer_a": "ls -l",
+        "answer_b": "show file.txt",
+        "answer_c": "fileinfo file.txt",
+        "answer_d": "ls --info",
+        "answer_e": null,
+        "answer_f": null
+      },
+      "multiple_correct_answers": "false",
+      "correct_answers": {
+        "answer_a_correct": "true",
+        "answer_b_correct": "false",
+        "answer_c_correct": "false",
+        "answer_d_correct": "false",
+        "answer_e_correct": "false",
+        "answer_f_correct": "false"
+      },
+      "correct_answer": null,
+      "explanation": "The `ls -l` command provides detailed information about files.",
+      "tip": null,
+      "tags": [
+        {
+          "name": "BASH"
+        }
+      ],
+      "category": "bash",
+      "difficulty": "Easy"
+    },
+  {
+    "id": 3,
+    "question": "How to check the current disk usage on Linux?",
+    "description": "check current disk usage",
+    "answers": {
+      "answer_a": "df",
+      "answer_b": "usage",
+      "answer_c": "uptime",
+      "answer_d": "free",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": "answer_a",
+    "explanation": "df shows you the current disk usage",
+    "tip": "df",
+    "tags": [
+      {
+        "name": "Linux"
+      },
+      {
+        "name": "BASH"
+      },
+      {
+        "name": "cmd"
+      }
+    ],
+    "category": "uncategorized",
+    "difficulty": "easy"
+  },
+  {
+    "id": 1984,
+    "question": "Which function would you use to combine two lists in Python?",
+    "description": "Combining lists is a common operation in data manipulation.",
+    "answers": {
+      "answer_a": "list1.append(list2)",
+      "answer_b": "list1 + list2",
+      "answer_c": "list1.add(list2)",
+      "answer_d": "combine(list1, list2)",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "You can combine two lists using the '+' operator, which concatenates them.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1957,
+    "question": "How do you set a thread as a daemon thread in Python?",
+    "description": "Setting a thread as a daemon ensures it will not block the program from exiting.",
+    "answers": {
+      "answer_a": "thread.daemon = True",
+      "answer_b": "set_daemon(thread, True)",
+      "answer_c": "thread.setDaemon(True)",
+      "answer_d": "thread.run_as_daemon()",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To set a thread as a daemon in Python, you set 'thread.daemon = True' before calling 'start()'.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1844,
+    "question": "How can you reduce memory usage by avoiding reference cycles in your code?",
+    "description": "Reference cycles prevent the garbage collector from reclaiming memory, so avoiding them can help reduce memory usage.",
+    "answers": {
+      "answer_a": "Use global variables",
+      "answer_b": "Avoid mutual references between objects",
+      "answer_c": "Use 'gc.collect()' repeatedly",
+      "answer_d": "Disable the garbage collector",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "By avoiding mutual references between objects, you prevent reference cycles, which allows the garbage collector to reclaim memory effectively.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1478,
+    "question": "Which of the following statements about decorators is false?",
+    "description": "This question tests understanding of decorators' characteristics.",
+    "answers": {
+      "answer_a": "Decorators can be used to extend the functionality of a function",
+      "answer_b": "Decorators cannot modify the return value of a function",
+      "answer_c": "Decorators can be stacked on top of each other",
+      "answer_d": "Decorators are applied at runtime",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Decorators can modify the return value of a function, depending on the logic implemented in the decorator.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2020,
+    "question": "How does Python's 'namedtuple' differ from a regular tuple?",
+    "description": "'namedtuple' is a part of Python's 'collections' module that provides a named version of tuples.",
+    "answers": {
+      "answer_a": "'namedtuple' elements can be accessed by attribute name as well as index",
+      "answer_b": "'namedtuple' allows elements to be modified",
+      "answer_c": "'namedtuple' uses more memory than a regular tuple",
+      "answer_d": "'namedtuple' is mutable while a regular tuple is immutable",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "A 'namedtuple' allows you to access elements using attribute names in addition to using an index, making the code more readable.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1723,
+    "question": "What is the benefit of using the 'contextlib.suppress' context manager?",
+    "description": "'contextlib.suppress' can be used to ignore certain exceptions that may occur in a 'with' block.",
+    "answers": {
+      "answer_a": "It stops the program when an exception occurs",
+      "answer_b": "It retries the code block until it succeeds",
+      "answer_c": "It suppresses the specified exceptions without raising them",
+      "answer_d": "It automatically logs the exceptions",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "'contextlib.suppress' can be used to ignore specified exceptions in a 'with' block, which helps keep the code clean without adding unnecessary 'try...except' blocks.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1455,
+    "question": "Which of the following can be used to define a function with a dynamic number of both positional and keyword arguments?",
+    "description": "To allow a function to accept a dynamic number of arguments, you can use '*args' and '**kwargs'.",
+    "answers": {
+      "answer_a": "*args, **kwargs",
+      "answer_b": "**args, *kwargs",
+      "answer_c": "*args only",
+      "answer_d": "**kwargs only",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To define a function that can accept a dynamic number of both positional and keyword arguments, use '*args' for positional arguments and '**kwargs' for keyword arguments.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 2003,
+    "question": "What will be the output of the following code: sorted([3, 1, 4, 1, 5])?",
+    "description": "The 'sorted()' function returns a new sorted list in ascending order.",
+    "answers": {
+      "answer_a": "[5, 4, 3, 1, 1]",
+      "answer_b": "[1, 1, 3, 4, 5]",
+      "answer_c": "[3, 1, 4, 5]",
+      "answer_d": "[1, 3, 4, 5]",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'sorted()' function returns a new list with the elements sorted in ascending order: [1, 1, 3, 4, 5].",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1909,
+    "question": "What is the purpose of the 'Semaphore' class in Python's threading module?",
+    "description": "A semaphore is used to control access to a resource by multiple threads.",
+    "answers": {
+      "answer_a": "To create multiple locks",
+      "answer_b": "To limit the number of threads that can access a resource at the same time",
+      "answer_c": "To terminate all threads",
+      "answer_d": "To manage process communication",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'Semaphore' class is used to limit the number of threads that can access a resource simultaneously, which is useful for controlling access to shared resources.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1872,
+    "question": "What is the main benefit of using the 'gc.unfreeze()' function?",
+    "description": "Unfreezing previously frozen objects can restore normal garbage collection behavior.",
+    "answers": {
+      "answer_a": "It allows the garbage collector to resume collecting frozen objects",
+      "answer_b": "It deletes all tracked objects",
+      "answer_c": "It resets the garbage collection thresholds",
+      "answer_d": "It stops all future garbage collection",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'gc.unfreeze()' function allows the garbage collector to resume collecting objects that were previously frozen, restoring the normal behavior of the garbage collector.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1794,
+    "question": "How can metaclasses be used to modify method signatures in derived classes?",
+    "description": "Modifying method signatures can ensure that derived classes comply with specific interface requirements.",
+    "answers": {
+      "answer_a": "By modifying '__call__'",
+      "answer_b": "By modifying the class dictionary in '__new__'",
+      "answer_c": "By overriding '__init__'",
+      "answer_d": "By using a decorator",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Metaclasses can modify the class dictionary in the '__new__' method to enforce changes in method signatures for derived classes, ensuring compliance with interface definitions.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1526,
+    "question": "How do you identify if an object is an iterator in Python?",
+    "description": "Identifying iterators is helpful for understanding iteration behavior.",
+    "answers": {
+      "answer_a": "Check if it has a '__iter__()' method",
+      "answer_b": "Check if it has a '__next__()' method",
+      "answer_c": "Use the 'type()' function",
+      "answer_d": "Check if it has an '__init__()' method",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "An object is an iterator if it has both '__iter__()' and '__next__()' methods, but '__next__()' is the distinguishing feature of an iterator.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1459,
+    "question": "How do you make a Python function synchronous?",
+    "description": "Synchronous functions are executed in a blocking manner, which means they wait for each other to complete.",
+    "answers": {
+      "answer_a": "By using the 'await' keyword",
+      "answer_b": "By avoiding 'async' and not using 'await'",
+      "answer_c": "By using the 'yield' keyword",
+      "answer_d": "By using 'async def'",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "To make a function synchronous, simply avoid defining it as 'async' and do not use the 'await' keyword.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 1592,
+    "question": "How can you combine multiple context managers dynamically at runtime?",
+    "description": "Managing multiple context managers dynamically can be challenging, but Python provides a tool for this.",
+    "answers": {
+      "answer_a": "Use nested 'with' statements",
+      "answer_b": "Use 'contextlib.ExitStack' to enter multiple context managers dynamically",
+      "answer_c": "Use 'try...finally' to manually manage each resource",
+      "answer_d": "Use '@contextmanager' to create a composite context manager",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "'contextlib.ExitStack' allows you to combine multiple context managers at runtime by dynamically adding them to the stack.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1471,
+    "question": "What is the result of using the 'del' statement on a function within its own body?",
+    "description": "The 'del' statement can be used to delete variable names or object attributes in Python.",
+    "answers": {
+      "answer_a": "The function is deleted immediately",
+      "answer_b": "A NameError is raised when the function is called again",
+      "answer_c": "The function continues to execute normally",
+      "answer_d": "It creates a circular reference",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "If 'del' is used to delete the function name within its own body, a NameError will be raised if an attempt is made to use that function again.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1557,
+    "question": "What will be the result of iterating over a generator after it has been exhausted?",
+    "description": "Generators are exhausted after their values have been fully iterated.",
+    "answers": {
+      "answer_a": "The generator starts over from the beginning",
+      "answer_b": "The generator will produce an empty sequence",
+      "answer_c": "The generator raises StopIteration immediately",
+      "answer_d": "The generator raises ValueError",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "false",
+      "answer_c_correct": "true",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Once a generator is exhausted, any further iteration will immediately raise a StopIteration exception, as there are no more values to yield.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Hard"
+  },
+  {
+    "id": 1561,
+    "question": "Which method is called when entering a context manager?",
+    "description": "Context managers use specific methods for entering and exiting the context.",
+    "answers": {
+      "answer_a": "__enter__",
+      "answer_b": "__exit__",
+      "answer_c": "__init__",
+      "answer_d": "__del__",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "true",
+      "answer_b_correct": "false",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The '__enter__' method is called when entering a context manager, initializing any necessary resources.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1761,
+    "question": "Can you use a metaclass to modify the attributes of a class during its creation?",
+    "description": "Metaclasses can be used to modify or add attributes during the creation of a class.",
+    "answers": {
+      "answer_a": "No, attributes can only be modified after the class is created",
+      "answer_b": "Yes, using the '__new__' or '__init__' methods of the metaclass",
+      "answer_c": "Only if the class is inherited",
+      "answer_d": "Only using decorators",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "Metaclasses can modify or add attributes during the creation of a class using the '__new__' or '__init__' methods.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 1923,
+    "question": "How can 'threading.Semaphore' be used to control access to a resource?",
+    "description": "A semaphore is used to limit the number of threads that can access a resource at the same time.",
+    "answers": {
+      "answer_a": "By setting the semaphore value to 0",
+      "answer_b": "By acquiring and releasing permits to control the number of concurrent accesses",
+      "answer_c": "By blocking all threads except one",
+      "answer_d": "By using it with the 'join()' method",
+      "answer_e": null,
+      "answer_f": null
+    },
+    "multiple_correct_answers": "false",
+    "correct_answers": {
+      "answer_a_correct": "false",
+      "answer_b_correct": "true",
+      "answer_c_correct": "false",
+      "answer_d_correct": "false",
+      "answer_e_correct": "false",
+      "answer_f_correct": "false"
+    },
+    "correct_answer": null,
+    "explanation": "The 'threading.Semaphore' class controls access to a resource by allowing a limited number of threads to acquire permits, ensuring that no more than a specified number of threads can access the resource concurrently.",
+    "tip": null,
+    "tags": [
+      {
+        "name": "Python"
+      }
+    ],
+    "category": "Code",
+    "difficulty": "Medium"
+  }
+  ]
