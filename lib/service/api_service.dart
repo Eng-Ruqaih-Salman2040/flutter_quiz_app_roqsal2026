@@ -9,6 +9,3 @@ class API_Service{
   //final String baseURL = 'http://192.168.0.196/Api_quiz_api_roq_db/api_perplexity.php';
 
 }
-//api_ChatGpt.php
-//api_DeepSeek.php
-//api_perplexity.php

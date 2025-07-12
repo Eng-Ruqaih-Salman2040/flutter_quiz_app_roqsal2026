@@ -318,6 +318,7 @@ class _UserRegistrationScreenState extends State<UserRegistrationScreen> {
     await prefs.setBool('isRegistered', true);
     await prefs.setString('userName', _nameController.text);
     await prefs.setString('email', _emailController.text);
+        await prefs.setString('universityId', _universityIdController.text);
     if (_selectedImage != null) {
       await prefs.setString('imagePath', _selectedImage!.path);
     }
