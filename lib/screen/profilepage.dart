@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:image_picker/image_picker.dart';
 import 'package:roqsal_quizapp_2026/screen/settings_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -20,11 +21,17 @@ class ProfileScreen extends StatefulWidget {
 class _ProfileScreenState extends State<ProfileScreen> {
   String? _email;
   String? _universityId;
+  String? _userName;
+  String? _profileImagePath;
+
   int _totalQuizzes = 0;
   int _correctAnswers = 0;
   double _successRate = 0.0;
+
   bool _isLoading = true;
   bool _isLoggingOut = false;
+
+  final ImagePicker _picker = ImagePicker();
 
   @override
   void initState() {
@@ -37,6 +44,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
       final prefs = await SharedPreferences.getInstance();
       setState(() {
         _email = prefs.getString('email');
+        _userName = prefs.getString('userName') ?? widget.userName;
+        _profileImagePath = prefs.getString('profileImagePath') ?? widget.imagePath;
         _universityId = prefs.getString('universityId');
         _totalQuizzes = prefs.getInt('totalQuizzes') ?? 0;
         _correctAnswers = prefs.getInt('correctAnswers') ?? 0;
@@ -47,8 +56,90 @@ class _ProfileScreenState extends State<ProfileScreen> {
       });
     } catch (e) {
       setState(() => _isLoading = false);
-      // In production, you might want to log this error to a service
       debugPrint('Error loading profile data: $e');
+    }
+  }
+
+  Future<void> _saveUserData() async {
+    final prefs = await SharedPreferences.getInstance();
+    if (_userName != null) await prefs.setString('userName', _userName!);
+    if (_email != null) await prefs.setString('email', _email!);
+    if (_profileImagePath != null) await prefs.setString('profileImagePath', _profileImagePath!);
+  }
+
+  Future<void> _changeProfileImage() async {
+    try {
+      final pickedFile = await _picker.pickImage(source: ImageSource.gallery);
+      if (pickedFile != null) {
+        setState(() {
+          _profileImagePath = pickedFile.path;
+        });
+        await _saveUserData();
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Profile image updated!')),
+        );
+      }
+    } catch (e) {
+      debugPrint('Error picking image: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Failed to change profile image.')),
+      );
+    }
+  }
+
+  Future<void> _editProfile() async {
+    final theme = Theme.of(context);
+    final TextEditingController nameController = TextEditingController(text: _userName);
+    final TextEditingController emailController = TextEditingController(text: _email);
+
+    final result = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Edit Profile'),
+        content: SingleChildScrollView(
+          child: Column(
+            children: [
+              TextField(
+                controller: nameController,
+                decoration: const InputDecoration(
+                  labelText: 'Name',
+                  prefixIcon: Icon(Icons.person),
+                ),
+              ),
+              const SizedBox(height: 16),
+              TextField(
+                controller: emailController,
+                decoration: const InputDecoration(
+                  labelText: 'Email',
+                  prefixIcon: Icon(Icons.email),
+                ),
+                keyboardType: TextInputType.emailAddress,
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Cancel'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Save'),
+          ),
+        ],
+      ),
+    );
+
+    if (result ?? false) {
+      setState(() {
+        _userName = nameController.text.trim();
+        _email = emailController.text.trim();
+      });
+      await _saveUserData();
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Profile updated successfully.')),
+      );
     }
   }
 
@@ -75,12 +166,14 @@ class _ProfileScreenState extends State<ProfileScreen> {
       setState(() => _isLoggingOut = true);
       try {
         final prefs = await SharedPreferences.getInstance();
-        await prefs.setBool('isRegistered', false);
-        Navigator.pushNamedAndRemoveUntil(
-          context,
-          '/onboarding',
-              (route) => false,
-        );
+        await prefs.clear();
+        if (mounted) {
+          Navigator.pushNamedAndRemoveUntil(
+            context,
+            '/onboarding',
+                (route) => false,
+          );
+        }
       } catch (e) {
         setState(() => _isLoggingOut = false);
         ScaffoldMessenger.of(context).showSnackBar(
@@ -88,20 +181,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
         );
       }
     }
-  }
-
-  Future<void> _editProfile() async {
-    // Placeholder for edit profile functionality
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Edit profile coming in next update')),
-    );
-  }
-
-  Future<void> _changeProfileImage() async {
-    // Placeholder for profile image change
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(content: Text('Profile image change coming soon')),
-    );
   }
 
   Widget _buildInfoRow({
@@ -161,8 +240,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
               context,
               MaterialPageRoute(
                 builder: (_) => SettingsScreen(
-                  userName: widget.userName,
-                  imagePath: widget.imagePath,
+                  userName: _userName ?? '',
+                  imagePath: _profileImagePath,
                 ),
               ),
             ),
@@ -186,10 +265,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 CircleAvatar(
                   radius: isSmallScreen ? 60 : 72,
                   backgroundColor: colorScheme.surfaceVariant,
-                  backgroundImage: widget.imagePath != null
-                      ? FileImage(File(widget.imagePath!))
+                  backgroundImage: _profileImagePath != null
+                      ? FileImage(File(_profileImagePath!))
                       : null,
-                  child: widget.imagePath == null
+                  child: _profileImagePath == null
                       ? Icon(
                     Icons.person,
                     size: isSmallScreen ? 50 : 64,
@@ -209,6 +288,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       size: 20,
                     ),
                     onPressed: _changeProfileImage,
+                    tooltip: 'Change Profile Picture',
                   ),
                 ),
               ],
@@ -217,7 +297,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
 
             // User Info
             Text(
-              widget.userName,
+              _userName ?? 'Your Name',
               style: textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: colorScheme.onSurface,
