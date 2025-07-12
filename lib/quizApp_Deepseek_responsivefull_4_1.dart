@@ -1534,7 +1534,7 @@ class DashboardCard extends StatelessWidget {
     required this.icon,
     required this.color,
     required this.emoji,
-    required this.onTap,
+    required this.onTap, required bool isSelected,
   });
 
   @override
