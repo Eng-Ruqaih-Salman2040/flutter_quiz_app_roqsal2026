@@ -1,0 +1,836 @@
+[
+  {
+    "courseId": 1,
+    "title": " Learn C++ Basics",
+    "description": "A practical course with diverse question types: true/false, multiple choice, code correction, code output, and program writing.",
+    "tags": [
+      "C++",
+      "Practice",
+      "Programming"
+    ],
+    "isPremium": false,
+    "lessons": [
+      {
+        "lessonId": 1,
+        "title": {
+          "en": "Ch1:An Overview of Computers and Programming  ",
+          "ar": ""
+        },
+        "description": {
+          "en": "This lesson includes all question types extracted from the Word file.",
+          "ar": "تشمل هذه المحاضرة جميع أنواع الأسئلة المستخرجة من ملف الوورد."
+        },
+        "isProject": false,
+        "contentPages": [
+          {
+            "pageId": 1,
+            "type": "content",
+            "title": "Types of computer ",
+            "sections": [
+
+            ],
+            "isLocked": false
+          },
+          {
+            "pageId": 2,
+            "type": "content",
+            "title": "Hardware and software components of a computer system",
+            "sections": [
+
+            ],
+            "isLocked": false
+          },
+          {
+            "pageId": 3,
+            "type": "content",
+            "title": "The Languages of a Computer",
+            "sections": [
+
+            ],
+            "isLocked": false
+          },
+          {
+            "pageId": 4,
+            "type": "content",
+            "title": "Evolution of programming languages",
+            "sections": [
+
+            ],
+            "isLocked": false
+          },
+            {
+                "pageId": 5,
+                "type": "content",
+                "title": "Programming with the Analysis– Coding–Execution Cycle",
+                "sections": [
+                  {
+                    "sectionType": "title",
+                    "content": "Algorithm"
+                  },
+                  {
+                    "sectionType": "text",
+                    "content": "Just like strings, we can print multiple numbers by separating them with the << operator."
+                  },
+                  {
+                    "sectionType": "title",
+                    "content": "Flowchart"
+                  },
+                    {
+
+                        "sectionType": "text",
+                        "content": "A flowchart is a diagram that represents the steps in a process."
+                    },
+                    {
+                        "sectionType": "image",
+                        "content": "https://www.programiz.com/sites/all/themes/programiz/assets/landing-page-images/how-to-cpp-2.png"
+                    },
+                    {
+                        "sectionType": "text",
+                        "content": "Flowcharts use various shapes to represent different types of actions or steps in a process."
+                    },
+                  {
+                    "sectionType": "title",
+                    "content": "Difference between Algorithm and Flowchart"
+                  },
+
+                    {
+
+                        "sectionType": "text",
+                        "content": "An algorithm is a step-by-step procedure, while a flowchart visually represents the same steps."
+                    }
+                ],
+                "isLocked": false
+            },
+            {
+                "pageId": 6,
+                "type": "content",
+                "title": "C++ Overview",
+                "sections": [
+
+                  {
+                    "sectionType": "title",
+                    "content": "Software (Definition - Developed)"
+                  },
+                    {
+                        "sectionType": "text",
+                        "content": "Software is a set of instructions that tells the computer how to perform specific tasks. It can be developed using various programming languages, including C++."
+                    },
+                    {
+                        "sectionType": "title",
+                        "content": "C++ (Definition – Task)"
+                    },
+                    {
+                        "sectionType": "text",
+                        "content": "C++ is a high-level programming language that is widely used for system and application software development. It allows developers to create efficient and powerful programs."
+                    },
+                    {
+                        "sectionType": "title",
+                        "content": "C ++ Versus C"
+                    },
+                    {
+                        "sectionType": "text",
+                        "content": "C++ is an extension of the C programming language, adding features like classes and objects, which support object-oriented programming."
+                    }
+                ],
+                "isLocked": false
+            },
+            {
+                "pageId": 7,
+                "type": "content",
+                "title": "C++ GET STARTED",
+                "sections": [
+
+                  {
+                    "sectionType": "title",
+                    "content": "Install C++ on Windows"
+                  },
+                    {
+                        "sectionType": "text",
+                        "content": "To start programming in C++, you need to install a C++ compiler. Popular options include GCC, Clang, and Microsoft Visual C++."
+                    },
+                    {
+                        "sectionType": "title",
+                        "content": "A Simple C++ Program"
+                    },
+                    {
+                        "sectionType": "text",
+                        "content": "Here is a simple C++ program that prints 'Hello, World!':\n\n#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"Hello, World!\";\n    return 0;\n}"
+                    },
+                    {
+                        "sectionType": "title",
+                        "content": "PROCESSING A C++ PROGRAM"
+                    },
+                    {
+                        "sectionType": "text",
+                        "content": "Processing a C++ program involves compiling the source code into machine code that the computer can execute."
+                    },
+                    {
+                        "sectionType": "title",
+                        "content": "Basic Structure of a C++ Program"
+                    },
+                    {
+                        "sectionType": "text",
+                        "content": "A basic C++ program consists of preprocessor directives, a main function, and statements that define the program's behavior."
+                    },
+                    {
+                        "sectionType": "title",
+                        "content": "Preprocessor Directives"
+                    },
+                    {
+                        "sectionType": "text",
+                        "content": "#include <iostream> is a preprocessor directive that includes the standard input-output stream library."
+                    }
+                ],
+                "isLocked": false
+            },
+            {
+                "pageId": 8,
+                "type": "content",
+                "title": "C++ Program Execution",
+                "sections": [
+
+                ],
+                "isLocked": false
+            },
+            {
+                "pageId": 9,
+                "type": "content",
+                "title": "C++ Program Development",
+                "sections": [
+
+                ],
+                "isLocked": false
+            },
+            {
+                "pageId": 10,
+                "type": "content",
+                "title": "C++ Program Development Tools",
+                "sections": [
+
+                ],
+                "isLocked": false
+            }
+
+        ]
+
+      },
+      {
+        "lessonId": 2,
+        "title": {
+          "en": "Ch2: Basic Elements of C++ ",
+          "ar": "المحاضرة 2: مفاهيم متقدمة في C++"
+        },
+        "description": {
+          "en": "This lesson covers advanced topics in C++ programming.",
+          "ar": "تتناول هذه المحاضرة مواضيع متقدمة في برمجة C++."
+        },
+        "isProject": false,
+        "contentPages": [
+          {
+            "pageId": 1,
+            "type": "content",
+            "title": "A Quick Look at a C ++ Program",
+            "sections": [
+              {
+                "sectionType": "title",
+                "content": "Sample run"
+              }
+
+            ],
+            "isLocked": false
+          },
+
+          {
+            "pageId": 2,
+            "type": "content",
+            "title": "The Basics of a C ++Program,",
+            "sections": [
+              {
+                "sectionType": "title",
+                "content": "Software (Definition - Developed)"
+              },
+
+
+              {
+                    "sectionType": "title",
+                    "content": "Programming language (Definition)"
+                },
+
+                {
+                    "sectionType": "title",
+                    "content": "Syntax rules"
+                },
+                {
+                    "sectionType": "title",
+                    "content": "Semantic rules"
+                },
+                {
+                    "sectionType": "title",
+                    "content": "Special Symbols in C++"
+                },
+                {
+                    "sectionType": "title",
+                    "content": "Reserved Words"
+                },
+                {
+                    "sectionType": "title",
+                    "content": "Examples- Appendix A"
+                }
+            ],
+            "isLocked": false
+          }
+        ]
+
+      }
+    ],
+    "Labs (Excercises)": [
+      {
+        "exerciseId": 1,
+        "title": {
+          "en": "Lab 1:An Overview of Computers and Programming",
+          "ar": ""
+        },
+        "description": {
+          "en": "This lab introduces the basic concepts of C++ programming.",
+          "ar": ""
+        },
+        "isProject": false,
+        "exercisesPages": [
+          {
+            "pageId": 1,
+            "pageTitle": {
+              "en": "Page 1: True/False",
+              "ar": "الصفحة 1: صح أو خطأ"
+            },
+            "type": "true_false",
+            "description": {
+              "en": "Mark each statement true or false. Correct if needed.",
+              "ar": "ضع true أو false لكل عبارة. صحح العبارة إن لزم."
+            },
+            "questions": [
+              {
+                "number": 1,
+                "questionText": {
+                  "en": "The extraction operator >> skips all leading whitespace characters.",
+                  "ar": "عامل الاستخراج >> يتخطى جميع أحرف المسافات البيضاء البادئة"
+                },
+                "correctAnswer": "false",
+                "studentAnswer": ""
+              },
+              {
+                "number": 2,
+                "questionText": {
+                  "en": "In the statement cin >> x;, x must be a variable.",
+                  "ar": "في التعليمة cin >> x؛ يجب أن يكون x متغيًرا"
+                },
+                "correctAnswer": "false",
+                "studentAnswer": ""
+              },
+              {
+                "number": 3,
+                "questionText": {
+                  "en": "The statement cin >> x >> y; requires the input values for x and y to appear on the same line.",
+                  "ar": "التعليمة cin >> x >> y؛ تتطلب قيم الإدخال لـ x و y لتظهر على نفس السطر."
+                },
+                "correctAnswer": "true",
+                "studentAnswer": ""
+              }
+            ]
+          },
+          {
+            "pageId": 2,
+            "pageTitle": {
+              "en": "Page 2: Multiple Choice",
+              "ar": "الصفحة 2: اختيار من متعدد"
+            },
+            "type": "multiple_choice",
+            "description": {
+              "en": "Choose the correct answer from the options.",
+              "ar": "اختر الإجابة الصحيحة من الخيارات المتاحة."
+            },
+            "questions": [
+              {
+                "number": 1,
+                "questionText": {
+                  "en": "Preprocessor directives begin with which of the following symbols?",
+                  "ar": ""
+                },
+                "questionCode": "",
+                "options": [
+                  "*",
+                  "$",
+                  "!",
+                  "#"
+                ],
+                "correctAnswer": "#",
+                "studentAnswer": ""
+              },
+              {
+                "number": 2,
+                "questionText": {
+                  "en": "Which of the following are relational operators?",
+                  "ar": ""
+                },
+                "questionCode": "",
+                "options": [
+                  "=",
+                  "=!",
+                  "<>",
+                  "<",
+                  "<="
+                ],
+                "correctAnswer": [
+                  "<",
+                  "<="
+                ],
+                "studentAnswer": ""
+              },
+              {
+                "number": 3,
+                "questionText": {
+                  "en": "Consider the following functions. The correct output of each of the following program segments is:",
+                  "ar": ""
+                },
+                "questionCode": "int find(int num)\n{\n    int first, second;\n    first = num * num; second = first + num;\n    if (second > 100)\n        num = first / 10;\n    else\n        num = first / 20;\n    return num + 2;\n}\n\nint discover(int one, int two)\n{\n    int secret = 0;\n    for (int i = one; i < two; i++) secret = secret + i * i;\n    return secret;\n}",
+                "options": [
+                  "num=10",
+                  "12 56",
+                  "num=65",
+                  "None of the above"
+                ],
+                "correctAnswer": "num=65",
+                "studentAnswer": ""
+              }
+            ]
+          },
+          {
+            "pageId": 3,
+            "pageTitle": {
+              "en": "Page 3: Code Output",
+              "ar": "الصفحة 3: مخرجات الكود"
+            },
+            "type": "code_output",
+            "description": {
+              "en": "What is the output of the following program?",
+              "ar": "ما هو ناتج البرنامج التالي؟"
+            },
+            "questions": [
+              {
+                "number": 1,
+                "questionText": {
+                  "en": "What is the output of this code?",
+                  "ar": ""
+                },
+                "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"The Developer: Rugaigh \";\n    cout << \"         Hussein \";\n    cout << \"               Salman\";\n    return 0;\n}",
+                "expectedOutput": "The Developer: Rugaigh          Hussein                Salman",
+                "studentAnswer": ""
+              },
+              {
+                "number": 2,
+                "questionText": {
+                  "en": "What is printed by the following program? Suppose the input is: 20 15.",
+                  "ar": ""
+                },
+                "questionCode": "#include <iostream>\nusing namespace std;\nconst int NUM = 10;\nconst double X = 20.5;\nint main()\n{\n    int a, b;\n    double z;\n    char grade;\n    a = 25;\n    cout << \"a = \" << a << endl;\n    cout << \"Enter two integers: \";\n    cin >> a >> b;\n    cout << endl;\n    cout << \"The numbers you entered are \"\n        << a << \" and \" << b << endl;\n    z = X + 2 * a - b;\n    cout << \"z = \" << z << endl;\n    grade = 'A';\n    cout << \"Your grade is \" << grade << endl;\n    a = 2 * NUM + z;\n    cout << \"The value of a = \" << a << endl;\n    return 0;\n}",
+                "expectedOutput": "a = 25\nEnter two integers: 20 15\nThe numbers you entered are 20 and 15\nz = 45.5\nYour grade is A\nThe value of a = 65",
+                "studentAnswer": ""
+              },
+              {
+                "number": 3,
+                "questionText": {
+                  "en": "What is printed by the following program?",
+                  "ar": ""
+                },
+                "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"CCCCCCCCCC ++ ++\" << endl;\n    cout << \"CC ++ ++\" << endl;\n    cout << \"CC ++++++++++ ++++++++++\" << endl;\n    cout << \"CC ++++++++++ ++++++++++\" << endl;\n    cout << \"CC ++ ++\" << endl;\n    cout << \"CCCCCCCCCC ++ ++\" << endl;\n    return 0;\n}",
+                "expectedOutput": "CCCCCCCCCC ++ ++\nCC ++ ++\nCC ++++++++++ ++++++++++\nCC ++++++++++ ++++++++++\nCC ++ ++\nCCCCCCCCCC ++ ++",
+                "studentAnswer": ""
+              }
+            ]
+          },
+          {
+            "pageId": 4,
+            "pageTitle": {
+              "en": "Page 4: Code Correction",
+              "ar": "الصفحة 4: تصحيح الكود"
+            },
+            "type": "code_correction",
+            "description": {
+              "en": "Fix the syntax errors in the following C++ code.",
+              "ar": "قم بتصحيح الأخطاء اللغوية في الكود التالي."
+            },
+            "questions": [
+              {
+                "number": 1,
+                "questionText": {
+                  "en": "Fix the syntax errors in the following C++ program:",
+                  "ar": ""
+                },
+                "questionCode": "include <iostram>\nusing namespace stud,\nint main()\n{\nint temp;\nstring first;\ncout << \"Enter first name: ;\ncin >> first\ncout << endl;\ncout << \"Enter last name: ;\ncin >> last;\ncout << endl;\ncout << \"Enter today's temperature: \";\ncin >> temperature;\ncout << endl;\ncout << first << \" \" << last << today's temperature is: \";\n<< temperature << endl;\nreturn 0;\n}",
+                "correctedCode": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    int temperature;\n    string first, last;\n    cout << \"Enter first name: \";\n    cin >> first;\n    cout << endl;\n    cout << \"Enter last name: \";\n    cin >> last;\n    cout << endl;\n    cout << \"Enter today's temperature: \";\n    cin >> temperature;\n    cout << endl;\n    cout << first << \" \" << last << \"'s temperature is: \" << temperature << endl;\n    return 0;\n}",
+                "studentAnswer": ""
+              },
+              {
+                "number": 2,
+                "questionText": {
+                  "en": "Fix the syntax errors in the following C++ program:",
+                  "ar": ""
+                },
+                "questionCode": "const char = STAR = '*'\nconst int PRIME = 71;\nint main\n{\n    int count, sum;\n    double x;\n    count = 1;\n    sum = count + PRIME;\nx: = 25.67;\n    newNum = count * ONE + 2;\n    sum + count = sum;\n    x = x + sum * COUNT;\n    cout << \" count = \" << count << \", sum = \" << sum << \", PRIME = \" << Prime << endl;\n}",
+                "correctedCode": "#include <iostream>\nusing namespace std;\nconst char STAR = '*';\nconst int PRIME = 71;\nint main() {\n    int count, sum, newNum;\n    double x;\n    count = 1;\n    sum = count + PRIME;\n    x = 25.67;\n    newNum = count * 1 + 2;\n    sum = sum + count;\n    x = x + sum * count;\n    cout << \" count = \" << count << \", sum = \" << sum << \", PRIME = \" << PRIME << endl;\n    return 0;\n}",
+                "studentAnswer": ""
+              },
+              {
+                "number": 3,
+                "questionText": {
+                  "en": "Fix the syntax errors in the following C++ program:",
+                  "ar": ""
+                },
+                "questionCode": "#include <iostream>\nconst int SECRET_NUM = 11, 213;\nconst PAY_RATE = 18.35\nmain()\n{  int one, two;\n    double first, second;\n    one = 18;\n    two = 11;\n    first = 25;\n    second = first * three;\n    second = 2 * SECRET_NUM;\n    SECRET_NUM = SECRET_NUM + 3;\n    cout << first << \" \" << second << SECRET_NUM << endl;\n    paycheck = hoursWorked * PAY_RATE\n    cout << \"Wages = \" << paycheck << endl;\n    return 0;\n}",
+                "correctedCode": "#include <iostream>\nusing namespace std;\nconst int SECRET_NUM = 11;\nconst double PAY_RATE = 18.35;\nint main() {\n    int one, two;\n    double first, second, paycheck, hoursWorked = 40;\n    one = 18;\n    two = 11;\n    first = 25;\n    second = first * two;\n    second = 2 * SECRET_NUM;\n    cout << first << \" \" << second << \" \" << SECRET_NUM << endl;\n    paycheck = hoursWorked * PAY_RATE;\n    cout << \"Wages = \" << paycheck << endl;\n    return 0;\n}",
+                "studentAnswer": ""
+              }
+            ]
+          },
+          {
+            "pageId": 5,
+            "pageTitle": {
+              "en": "Page 5: Program Writing",
+              "ar": "الصفحة 5: كتابة برنامج"
+            },
+            "type": "program_writing",
+            "description": {
+              "en": "Write full programs to solve the problem using different control structures.",
+              "ar": "اكتب برنامجًا كاملاً لحل المشكلة باستخدام هياكل التحكم المختلفة."
+            },
+            "questions": [
+              {
+                "number": 1,
+                "questionText": {
+                  "en": "Write a calculator program using if-else-if and switch:",
+                  "ar": ""
+                },
+                "questionCode": "",
+                "if_else_version": "#include <iostream>\nusing namespace std;\nint main() {\n    double num1, num2, result;\n    char op;\n    cout << \"Enter two numbers: \";\n    cin >> num1 >> num2;\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n    if (op == '+') result = num1 + num2;\n    else if (op == '-') result = num1 - num2;\n    else if (op == '*') result = num1 * num2;\n    else if (op == '/') {\n        if (num2 != 0) result = num1 / num2;\n        else { cout << \"Error: Division by zero!\" << endl; return 1; }\n    } else {\n        cout << \"Invalid operator!\" << endl;\n        return 1;\n    }\n    cout << \"Result: \" << num1 << \" \" << op << \" \" << num2 << \" = \" << result << endl;\n    return 0;\n}",
+                "switch_version": "#include <iostream>\nusing namespace std;\nint main() {\n    double num1, num2, result;\n    char op;\n    cout << \"Enter two numbers: \";\n    cin >> num1 >> num2;\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n    switch(op) {\n        case '+': result = num1 + num2; break;\n        case '-': result = num1 - num2; break;\n        case '*': result = num1 * num2; break;\n        case '/':\n            if (num2 != 0) result = num1 / num2;\n            else { cout << \"Error: Division by zero!\" << endl; return 1; }\n            break;\n        default: cout << \"Invalid operator!\" << endl; return 1;\n    }\n    cout << \"Result: \" << num1 << \" \" << op << \" \" << num2 << \" = \" << result << endl;\n    return 0;\n}",
+                "studentAnswer": ""
+              },
+              {
+                "number": 2,
+                "questionText": {
+                  "en": "Write a C++ Program like a calculator for the basic operations using switch.",
+                  "ar": ""
+                },
+                "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    double num1, num2, result;\n    char op;\n\n    cout << \"Enter two numbers: \";\n    cin >> num1 >> num2;\n\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n\n    switch(op) {\n        case '+':\n            result = num1 + num2;\n            break;\n        case '-':\n            result = num1 - num2;\n            break;\n        case '*':\n            result = num1 * num2;\n            break;\n        case '/':\n            if (num2 != 0)\n                result = num1 / num2;\n            else {\n                cout << \"Error: Division by zero!\" << endl;\n                return 1;\n            }\n            break;\n        default:\n            cout << \"Invalid operator!\" << endl;\n            return 1;\n    }\n\n    cout << \"Result: \" << num1 << \" \" << op << \" \" << num2 << \" = \" << result << endl;\n\n    return 0;\n}",
+                "studentAnswer": ""
+              },
+              {
+                "number": 3,
+                "questionText": {
+                  "en": "Write a C++ program that outputs 'Male' if the gender is 'M' or 'm', 'Female' if 'F' or 'f', and 'Invalid gender' otherwise.",
+                  "ar": ""
+                },
+                "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    char gender;\n\n    cout << \"Enter gender (M/F): \";\n    cin >> gender;\n\n    if (gender == 'M' || gender == 'm') {\n        cout << \"Male\" << endl;\n    } \n    else if (gender == 'F' || gender == 'f') {\n        cout << \"Female\" << endl;\n    } \n    else {\n        cout << \"Invalid gender\" << endl;\n    }\n\n    return 0;\n}",
+                "studentAnswer": ""
+              }
+            ]
+          },
+          {
+            "number": 4,
+            "questionText": {
+              "en": "Suppose the variable 'score' is an int. Consider the following if statements:",
+              "ar": "افترض أن الدرجة score هي متغير int. ضع في اعتبارك عبارات if التالية:"
+            },
+            "questionCode": [
+              "a. if (score==70) cout << \"Grade is C.\" << endl;",
+              "b. if (score=70) cout << \"Grade is C.\" << endl;"
+            ],
+            "followUp": [
+              {
+                "en": "What is the output in (a) and (b) if the value of score is 70? What is the value of score after the if statement executes?",
+                "ar": "ما هو الناتج لكل من (a) و (b) إذا كانت قيمة الدرجة 70 = score ؟ ما هي قيمة الدرجة score بعد تنفيذ عبارة if؟",
+                "correctAnswer": {
+                  "a": "Grade is C.\nScore remains 70.",
+                  "b": "Grade is C.\nScore is assigned 70."
+                },
+                "studentAnswer": {
+                  "a": "",
+                  "b": ""
+                }
+              },
+              {
+                "en": "What is the output in (a) and (b) if the value of score is 80? What is the value of score after the if statement executes?",
+                "ar": "ما هو الناتج لكل من (a) و (b) إذا كانت قيمة الدرجة 80 = score ؟ ما هي قيمة الدرجة score بعد تنفيذ عبارة if؟",
+                "correctAnswer": {
+                  "a": "No output.\nScore remains 80.",
+                  "b": "Grade is C.\nScore is now 70."
+                },
+                "studentAnswer": {
+                  "a": "",
+                  "b": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+            "exerciseId": 2,
+            "title": {
+            "en": "Lab 2: Basic Elements of C++",
+            "ar": ""
+            },
+            "description": {
+            "en": "This lab covers the basic elements of C++ programming.",
+            "ar": ""
+            },
+            "isProject": false,
+            "exercisesPages": [
+              {
+                "pageId": 1,
+                "pageTitle": {
+                  "en": "Page 1: True/False",
+                  "ar": "الصفحة 1: صح أو خطأ"
+                },
+                "type": "true_false",
+                "description": {
+                  "en": "Mark each statement true or false. Correct if needed.",
+                  "ar": "ضع true أو false لكل عبارة. صحح العبارة إن لزم."
+                },
+                "questions": [
+                  {
+                    "number": 1,
+                    "questionText": {
+                      "en": "The extraction operator >> skips all leading whitespace characters.",
+                      "ar": "عامل الاستخراج >> يتخطى جميع أحرف المسافات البيضاء البادئة"
+                    },
+                    "correctAnswer": "false",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 2,
+                    "questionText": {
+                      "en": "In the statement cin >> x;, x must be a variable.",
+                      "ar": "في التعليمة cin >> x؛ يجب أن يكون x متغيًرا"
+                    },
+                    "correctAnswer": "false",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 3,
+                    "questionText": {
+                      "en": "The statement cin >> x >> y; requires the input values for x and y to appear on the same line.",
+                      "ar": "التعليمة cin >> x >> y؛ تتطلب قيم الإدخال لـ x و y لتظهر على نفس السطر."
+                    },
+                    "correctAnswer": "true",
+                    "studentAnswer": ""
+                  }
+                ]
+              },
+              {
+                "pageId": 2,
+                "pageTitle": {
+                  "en": "Page 2: Multiple Choice",
+                  "ar": "الصفحة 2: اختيار من متعدد"
+                },
+                "type": "multiple_choice",
+                "description": {
+                  "en": "Choose the correct answer from the options.",
+                  "ar": "اختر الإجابة الصحيحة من الخيارات المتاحة."
+                },
+                "questions": [
+                  {
+                    "number": 1,
+                    "questionText": {
+                      "en": "Preprocessor directives begin with which of the following symbols?",
+                      "ar": ""
+                    },
+                    "questionCode": "",
+                    "options": [
+                      "*",
+                      "$",
+                      "!",
+                      "#"
+                    ],
+                    "correctAnswer": "#",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 2,
+                    "questionText": {
+                      "en": "Which of the following are relational operators?",
+                      "ar": ""
+                    },
+                    "questionCode": "",
+                    "options": [
+                      "=",
+                      "=!",
+                      "<>",
+                      "<",
+                      "<="
+                    ],
+                    "correctAnswer": [
+                      "<",
+                      "<="
+                    ],
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 3,
+                    "questionText": {
+                      "en": "Consider the following functions. The correct output of each of the following program segments is:",
+                      "ar": ""
+                    },
+                    "questionCode": "int find(int num)\n{\n    int first, second;\n    first = num * num; second = first + num;\n    if (second > 100)\n        num = first / 10;\n    else\n        num = first / 20;\n    return num + 2;\n}\n\nint discover(int one, int two)\n{\n    int secret = 0;\n    for (int i = one; i < two; i++) secret = secret + i * i;\n    return secret;\n}",
+                    "options": [
+                      "num=10",
+                      "12 56",
+                      "num=65",
+                      "None of the above"
+                    ],
+                    "correctAnswer": "num=65",
+                    "studentAnswer": ""
+                  }
+                ]
+              },
+              {
+                "pageId": 3,
+                "pageTitle": {
+                  "en": "Page 3: Code Output",
+                  "ar": "الصفحة 3: مخرجات الكود"
+                },
+                "type": "code_output",
+                "description": {
+                  "en": "What is the output of the following program?",
+                  "ar": "ما هو ناتج البرنامج التالي؟"
+                },
+                "questions": [
+                  {
+                    "number": 1,
+                    "questionText": {
+                      "en": "What is the output of this code?",
+                      "ar": ""
+                    },
+                    "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"The Developer: Rugaigh \";\n    cout << \"         Hussein \";\n    cout << \"               Salman\";\n    return 0;\n}",
+                    "expectedOutput": "The Developer: Rugaigh          Hussein                Salman",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 2,
+                    "questionText": {
+                      "en": "What is printed by the following program? Suppose the input is: 20 15.",
+                      "ar": ""
+                    },
+                    "questionCode": "#include <iostream>\nusing namespace std;\nconst int NUM = 10;\nconst double X = 20.5;\nint main()\n{\n    int a, b;\n    double z;\n    char grade;\n    a = 25;\n    cout << \"a = \" << a << endl;\n    cout << \"Enter two integers: \";\n    cin >> a >> b;\n    cout << endl;\n    cout << \"The numbers you entered are \"\n        << a << \" and \" << b << endl;\n    z = X + 2 * a - b;\n    cout << \"z = \" << z << endl;\n    grade = 'A';\n    cout << \"Your grade is \" << grade << endl;\n    a = 2 * NUM + z;\n    cout << \"The value of a = \" << a << endl;\n    return 0;\n}",
+                    "expectedOutput": "a = 25\nEnter two integers: 20 15\nThe numbers you entered are 20 and 15\nz = 45.5\nYour grade is A\nThe value of a = 65",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 3,
+                    "questionText": {
+                      "en": "What is printed by the following program?",
+                      "ar": ""
+                    },
+                    "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    cout << \"CCCCCCCCCC ++ ++\" << endl;\n    cout << \"CC ++ ++\" << endl;\n    cout << \"CC ++++++++++ ++++++++++\" << endl;\n    cout << \"CC ++++++++++ ++++++++++\" << endl;\n    cout << \"CC ++ ++\" << endl;\n    cout << \"CCCCCCCCCC ++ ++\" << endl;\n    return 0;\n}",
+                    "expectedOutput": "CCCCCCCCCC ++ ++\nCC ++ ++\nCC ++++++++++ ++++++++++\nCC ++++++++++ ++++++++++\nCC ++ ++\nCCCCCCCCCC ++ ++",
+                    "studentAnswer": ""
+                  }
+                ]
+              },
+              {
+                "pageId": 4,
+                "pageTitle": {
+                  "en": "Page 4: Code Correction",
+                  "ar": "الصفحة 4: تصحيح الكود"
+                },
+                "type": "code_correction",
+                "description": {
+                  "en": "Fix the syntax errors in the following C++ code.",
+                  "ar": "قم بتصحيح الأخطاء اللغوية في الكود التالي."
+                },
+                "questions": [
+                  {
+                    "number": 1,
+                    "questionText": {
+                      "en": "Fix the syntax errors in the following C++ program:",
+                      "ar": ""
+                    },
+                    "questionCode": "include <iostram>\nusing namespace stud,\nint main()\n{\nint temp;\nstring first;\ncout << \"Enter first name: ;\ncin >> first\ncout << endl;\ncout << \"Enter last name: ;\ncin >> last;\ncout << endl;\ncout << \"Enter today's temperature: \";\ncin >> temperature;\ncout << endl;\ncout << first << \" \" << last << today's temperature is: \";\n<< temperature << endl;\nreturn 0;\n}",
+                    "correctedCode": "#include <iostream>\n#include <string>\nusing namespace std;\nint main() {\n    int temperature;\n    string first, last;\n    cout << \"Enter first name: \";\n    cin >> first;\n    cout << endl;\n    cout << \"Enter last name: \";\n    cin >> last;\n    cout << endl;\n    cout << \"Enter today's temperature: \";\n    cin >> temperature;\n    cout << endl;\n    cout << first << \" \" << last << \"'s temperature is: \" << temperature << endl;\n    return 0;\n}",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 2,
+                    "questionText": {
+                      "en": "Fix the syntax errors in the following C++ program:",
+                      "ar": ""
+                    },
+                    "questionCode": "const char = STAR = '*'\nconst int PRIME = 71;\nint main\n{\n    int count, sum;\n    double x;\n    count = 1;\n    sum = count + PRIME;\nx: = 25.67;\n    newNum = count * ONE + 2;\n    sum + count = sum;\n    x = x + sum * COUNT;\n    cout << \" count = \" << count << \", sum = \" << sum << \", PRIME = \" << Prime << endl;\n}",
+                    "correctedCode": "#include <iostream>\nusing namespace std;\nconst char STAR = '*';\nconst int PRIME = 71;\nint main() {\n    int count, sum, newNum;\n    double x;\n    count = 1;\n    sum = count + PRIME;\n    x = 25.67;\n    newNum = count * 1 + 2;\n    sum = sum + count;\n    x = x + sum * count;\n    cout << \" count = \" << count << \", sum = \" << sum << \", PRIME = \" << PRIME << endl;\n    return 0;\n}",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 3,
+                    "questionText": {
+                      "en": "Fix the syntax errors in the following C++ program:",
+                      "ar": ""
+                    },
+                    "questionCode": "#include <iostream>\nconst int SECRET_NUM = 11, 213;\nconst PAY_RATE = 18.35\nmain()\n{  int one, two;\n    double first, second;\n    one = 18;\n    two = 11;\n    first = 25;\n    second = first * three;\n    second = 2 * SECRET_NUM;\n    SECRET_NUM = SECRET_NUM + 3;\n    cout << first << \" \" << second << SECRET_NUM << endl;\n    paycheck = hoursWorked * PAY_RATE\n    cout << \"Wages = \" << paycheck << endl;\n    return 0;\n}",
+                    "correctedCode": "#include <iostream>\nusing namespace std;\nconst int SECRET_NUM = 11;\nconst double PAY_RATE = 18.35;\nint main() {\n    int one, two;\n    double first, second, paycheck, hoursWorked = 40;\n    one = 18;\n    two = 11;\n    first = 25;\n    second = first * two;\n    second = 2 * SECRET_NUM;\n    cout << first << \" \" << second << \" \" << SECRET_NUM << endl;\n    paycheck = hoursWorked * PAY_RATE;\n    cout << \"Wages = \" << paycheck << endl;\n    return 0;\n}",
+                    "studentAnswer": ""
+                  }
+                ]
+              },
+              {
+                "pageId": 5,
+                "pageTitle": {
+                  "en": "Page 5: Program Writing",
+                  "ar": "الصفحة 5: كتابة برنامج"
+                },
+                "type": "program_writing",
+                "description": {
+                  "en": "Write full programs to solve the problem using different control structures.",
+                  "ar": "اكتب برنامجًا كاملاً لحل المشكلة باستخدام هياكل التحكم المختلفة."
+                },
+                "questions": [
+                  {
+                    "number": 1,
+                    "questionText": {
+                      "en": "Write a calculator program using if-else-if and switch:",
+                      "ar": ""
+                    },
+                    "questionCode": "",
+                    "if_else_version": "#include <iostream>\nusing namespace std;\nint main() {\n    double num1, num2, result;\n    char op;\n    cout << \"Enter two numbers: \";\n    cin >> num1 >> num2;\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n    if (op == '+') result = num1 + num2;\n    else if (op == '-') result = num1 - num2;\n    else if (op == '*') result = num1 * num2;\n    else if (op == '/') {\n        if (num2 != 0) result = num1 / num2;\n        else { cout << \"Error: Division by zero!\" << endl; return 1; }\n    } else {\n        cout << \"Invalid operator!\" << endl;\n        return 1;\n    }\n    cout << \"Result: \" << num1 << \" \" << op << \" \" << num2 << \" = \" << result << endl;\n    return 0;\n}",
+                    "switch_version": "#include <iostream>\nusing namespace std;\nint main() {\n    double num1, num2, result;\n    char op;\n    cout << \"Enter two numbers: \";\n    cin >> num1 >> num2;\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n    switch(op) {\n        case '+': result = num1 + num2; break;\n        case '-': result = num1 - num2; break;\n        case '*': result = num1 * num2; break;\n        case '/':\n            if (num2 != 0) result = num1 / num2;\n            else { cout << \"Error: Division by zero!\" << endl; return 1; }\n            break;\n        default: cout << \"Invalid operator!\" << endl; return 1;\n    }\n    cout << \"Result: \" << num1 << \" \" << op << \" \" << num2 << \" = \" << result << endl;\n    return 0;\n}",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 2,
+                    "questionText": {
+                      "en": "Write a C++ Program like a calculator for the basic operations using switch.",
+                      "ar": ""
+                    },
+                    "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    double num1, num2, result;\n    char op;\n\n    cout << \"Enter two numbers: \";\n    cin >> num1 >> num2;\n\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n\n    switch(op) {\n        case '+':\n            result = num1 + num2;\n            break;\n        case '-':\n            result = num1 - num2;\n            break;\n        case '*':\n            result = num1 * num2;\n            break;\n        case '/':\n            if (num2 != 0)\n                result = num1 / num2;\n            else {\n                cout << \"Error: Division by zero!\" << endl;\n                return 1;\n            }\n            break;\n        default:\n            cout << \"Invalid operator!\" << endl;\n            return 1;\n    }\n\n    cout << \"Result: \" << num1 << \" \" << op << \" \" << num2 << \" = \" << result << endl;\n\n    return 0;\n}",
+                    "studentAnswer": ""
+                  },
+                  {
+                    "number": 3,
+                    "questionText": {
+                      "en": "Write a C++ program that outputs 'Male' if the gender is 'M' or 'm', 'Female' if 'F' or 'f', and 'Invalid gender' otherwise.",
+                      "ar": ""
+                    },
+                    "questionCode": "#include <iostream>\nusing namespace std;\n\nint main() {\n    char gender;\n\n    cout << \"Enter gender (M/F): \";\n    cin >> gender;\n\n    if (gender == 'M' || gender == 'm') {\n        cout << \"Male\" << endl;\n    } \n    else if (gender == 'F' || gender == 'f') {\n        cout << \"Female\" << endl;\n    } \n    else {\n        cout << \"Invalid gender\" << endl;\n    }\n\n    return 0;\n}",
+                    "studentAnswer": ""
+                  }
+                ]
+              }
+            ]
+        }
+    ]
+  }
+]h
+
+
+
+
+
+

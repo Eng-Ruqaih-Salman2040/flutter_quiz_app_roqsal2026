@@ -30,30 +30,6 @@ class SettingsScreen extends StatefulWidget {
 }
 
 class _SettingsScreenState extends State<SettingsScreen> {
-  Future<void> _exitApp() async {
-    final shouldExit = await showDialog<bool>(
-      context: context,
-      builder: (context) => AlertDialog(
-        title: const Text('Exit App'),
-        content: const Text('Are you sure you want to exit the application?'),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(context, false),
-            child: const Text('Cancel'),
-          ),
-          TextButton(
-            onPressed: () => Navigator.pop(context, true),
-            child: const Text('Exit'),
-          ),
-        ],
-      ),
-    );
-
-    if (shouldExit ?? false) {
-      SystemNavigator.pop();
-    }
-  }
-
   Future<void> _clearDataAndLogout() async {
     final shouldLogout = await AwesomeDialog(
       context: context,
@@ -108,6 +84,31 @@ class _SettingsScreenState extends State<SettingsScreen> {
       },
     ).show();
   }
+  Future<void> _exitApp() async {
+    final shouldExit = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('Exit App'),
+        content: const Text('Are you sure you want to exit the application?'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(context, false),
+            child: const Text('Cancel'),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(context, true),
+            child: const Text('Exit'),
+          ),
+        ],
+      ),
+    );
+
+    if (shouldExit ?? false) {
+      SystemNavigator.pop();
+    }
+  }
+
+
 
   Future<void> _rateApp() async {
     const url = 'https://play.google.com/store/apps/details?id=com.example.csquiz';
@@ -125,7 +126,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
     const subject = 'CS Quiz App Recommendation';
     const url = 'https://play.google.com/store/apps/details?id=com.example.csquiz';
 
-    Share.share(
+    await Share.share(
       '$text\n$url',
       subject: subject,
     );

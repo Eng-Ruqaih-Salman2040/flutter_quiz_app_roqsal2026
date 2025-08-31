@@ -14,7 +14,7 @@ import '../screen/introPage.dart';
 import '../screen/scorescreen.dart';
 
 
-class Routerr {
+class Router_Roq {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case SplashScreenDynamic:
@@ -22,12 +22,14 @@ class Routerr {
       case IntroScreen:
         return MaterialPageRoute(builder: (_) =>  IntroPage());
       case Onboardingscreen:
+
         return MaterialPageRoute(builder: (_) => const OnboardingScreen());
       case Login:
         return MaterialPageRoute(builder: (_) => const UserRegistrationScreen());
 
       case DashBoardScreen2:
         return MaterialPageRoute(builder: (_) => const DashboardScreen());
+
       case DashBoardScreen:
         return MaterialPageRoute(builder: (_) => const DashboardPage());
       case QuizScreen:
